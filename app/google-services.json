@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "849874313186",
+    "project_id": "coffeenest-8b314",
+    "storage_bucket": "coffeenest-8b314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849874313186:android:fda0c77f4f43f9b83b63bb",
+        "android_client_info": {
+          "package_name": "com.example.coffeenest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849874313186-67nfudnb5a3uo9mmnk1le9c353l2n27v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coffeenest",
+            "certificate_hash": "d67b1542ec8c0b9b82a208ca3a2d6eb2745540b5"
+          }
+        },
+        {
+          "client_id": "849874313186-6e0oua9nbc24caojt66re75v378j4qoj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0iPpc3gTmTNUoIKPzt5B7Uv6MU6x8whY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849874313186-6e0oua9nbc24caojt66re75v378j4qoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

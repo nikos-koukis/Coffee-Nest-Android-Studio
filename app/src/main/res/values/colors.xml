@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //default colors
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    //----------------------------- Custom Colors ------------------------------//
+    //----------------------------- Basic Colors ------------------------------//
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+
+
+    //------- Main Activity Colors ---------//
+    <color name="start_page_bg_color">#B65B00</color>
+
+    //------- Launch Activity Colors ---------//
+    <color name="launch_bg_color">#F2F2F2</color>
+    <color name="gmail_btn_color">#C71610</color>
+    <color name="facebook_btn_color">#015478</color>
+    <color name="login_btn_bg">#F2F2F2</color>
+    <color name="register_btn_bg">#F2F2F2</color>
+
+    //-------- Register Activity Colors ------//
+    <color name="register_bg_color">#F2F2F2</color>
+
+    //-------- Login Activity Colors ---------//
+    <color name="login_bg_color">#F2F2F2</color>
+
+    //-------- Forget Password Activity Colors ---------//
+    <color name="forget_pass_bg_color">#F2F2F2</color>
+
+    //-------- Home Activity Colors ---------//
+    <color name="btn_order">#FF8C00</color>
+
+    //-------- User Profile Activity Colors ---------//
+    <color name="user_prof_bg_color">#F2F2F2</color>
+
+    //-------- My Account Activity Colors ---------//
+    <color name="my_account_bg_color">#F2F2F2</color>
+
+    //-------- Change Pass Activity Colors ---------//
+    <color name="change_pass_bg_color">#F2F2F2</color>
+
+    //---------------------------- Fragment Activity Colors -------------------------------//
+
+    //----------- Main Fragment Colors -------------------------------------//
+    <color name="background_action_bar">#B65B00</color>
+    <color name="background_tab">#733A00</color>
+
+    //----------- Home Fragment Colors -------------------------------------//
+    <color name="home_fragment_bg_color">#F2F2F2</color>
+
+    //----------- Coffee Fragment Colors -------------------------------------//
+    <color name="coffee_fragment_bg_color">#F2F2F2</color>
+
+    //----------- Drinks Fragment Colors -------------------------------------//
+    <color name="drinks_fragment_bg_color">#F2F2F2</color>
+
+    //----------- Smoothies Fragment Colors -------------------------------------//
+    <color name="smoothies_fragment_bg_color">#F2F2F2</color>
+
+    //----------- Tea Fragment Colors -------------------------------------//
+    <color name="tea_fragment_bg_color">#F2F2F2</color>
+
+    //----------- Snacks Fragment Colors -------------------------------------//
+    <color name="snacks_fragment_bg_color">#F2F2F2</color>
+
+
+
+    //--------------------------- Fragment Details Colors --------------------------------//
+    //------- Coffee Details Colors --------------------//
+    <color name="bg_color_nested_scroll_view">#F2F2F2</color>
+    <color name="card_choose_varieties_option_background">#6AECCA</color>
+    <color name="card_choose_varieties_option">#00BC8B</color>
+
+    //------- Drink Details Colors --------------------//
+    <color name="bg_color_nested_scroll_view_drink_details">#F2F2F2</color>
+
+
+
+    //------- Cart Activity Colors --------------------//
+    <color name="card_view_bg_color">#F2F2F2</color>
+
+    //------- Cart Item Colors --------------------//
+    <color name="card_item_bg_color">#F2F2F2</color>
+    <color name="elegant_number_bg_color">#EDEDED</color>
+
+
+    //------- Order Confirmation Colors --------------------//
+    <color name="order_confirm_bg_color">#F2F2F2</color>
+    <color name="order_confirm_txt_color">#95140F</color>
+    <color name="for_more_info_text_color">#883C3C3C</color>
+
+    //------- Payment Method Activity Colors --------------------//
+    <color name="cart_view_bg_color">#FBFBFB</color>
+    <color name="arrow_color">#007C05</color>
+    <color name="btn_text_color">#007C05</color>
+    <color name="btn_save_address_bg_color">#FF5722</color>
+
+    //------- User Orders Activity Colors --------------------//
+    <color name="user_orders_bg_color">#F2F2F2</color>
+    <color name="btn_add_new_address">#FF9800</color>
+
+
+
+
+
+</resources>

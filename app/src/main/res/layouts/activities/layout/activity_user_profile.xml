@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/user_prof_bg_color"
+        android:orientation="vertical"
+        tools:context=".UserProfileActivity">
+
+
+        <ImageButton
+            android:id="@+id/user_profile_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/user_prof_bg_color"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_back" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/username_prof_text"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/user_name_text"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="131dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@null"
+                android:src="@drawable/user_profile_gif" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/my_info_text"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/btn_my_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawableRight="@drawable/ic_right_arrow"
+            android:padding="15dp"
+            android:text="@string/btn_my_account_text"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/btn_user_orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_food"
+            android:drawableRight="@drawable/ic_right_arrow"
+            android:padding="15dp"
+            android:text="@string/btn_my_order_text"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/btn_user_locations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawableRight="@drawable/ic_right_arrow"
+            android:padding="15dp"
+            android:text="@string/btn_my_address_text"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_favorite"
+            android:drawableRight="@drawable/ic_right_arrow"
+            android:padding="15dp"
+            android:text="@string/btn_my_fav_text"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_rate"
+            android:drawableRight="@drawable/ic_right_arrow"
+            android:padding="15dp"
+            android:text="@string/btn_my_rate_text"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_euro"
+            android:drawableRight="@drawable/ic_right_arrow"
+            android:padding="15dp"
+            android:text="@string/btn_my_payments_text"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/about_text"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_personal"
+            android:drawableRight="@drawable/ic_right_arrow"
+            android:padding="15dp"
+            android:text="@string/btn_my_personal_text"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_about_us"
+            android:drawableRight="@drawable/ic_right_arrow"
+            android:padding="15dp"
+            android:text="@string/btn_about_us_text"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height=".1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawableLeft="@drawable/ic_contact"
+            android:drawableRight="@drawable/ic_right_arrow"
+            android:padding="15dp"
+            android:text="@string/btn_contact_text"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+</ScrollView>

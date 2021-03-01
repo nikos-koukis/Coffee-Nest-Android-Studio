@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.coffeenest">
+
+    <uses-permission android:name="android.permission.INTERNET " />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Coffee Nest"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoffeeNest"
+        tools:replace="android:label,android:theme">
+        <activity android:name=".FragmentDetails.SnackDetails"
+            android:parentActivityName=".Fragments.MainFragment"></activity>
+        <activity
+            android:name=".FragmentDetails.TeaDetails"
+            android:parentActivityName=".Fragments.MainFragment" />
+        <activity
+            android:name=".FragmentDetails.SmoothieDetails"
+            android:parentActivityName=".Fragments.MainFragment" />
+        <activity android:name=".UserOrderActivity" />
+        <activity
+            android:name=".PaymentMethodActivity"
+            android:parentActivityName=".CartActivity" />
+        <activity
+            android:name=".GoogleMap"
+            android:parentActivityName=".Fragments.MainFragment" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".OrderConfirmationActivity" />
+        <activity
+            android:name=".FragmentDetails.DrinkDetails"
+            android:parentActivityName=".Fragments.MainFragment" />
+        <activity
+            android:name=".FragmentDetails.CoffeeDetails"
+            android:parentActivityName=".Fragments.MainFragment" />
+        <activity
+            android:name=".CartActivity"
+            android:parentActivityName=".Fragments.MainFragment" />
+        <activity
+            android:name=".Fragments.MainFragment"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".MyAccountActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/Theme.CoffeeNest.NoActionBar" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".LaunchActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/user_orders_bg_color"
+    tools:context=".UserOrderActivity">
+
+    <ImageButton
+        android:id="@+id/btn_back_user_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_back"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"/>
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/order_giffy"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/location_gif"
+        android:visibility="gone"
+        tools:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/user_order_blank_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+        android:text="@string/user_orders_blank_text"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:visibility="gone"
+        tools:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="-100dp"
+        android:text="@string/user_orders_text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/black" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:background="@color/user_orders_bg_color"
+        android:layout_marginBottom="100dp"/>
+
+
+    <Button
+        android:id="@+id/btn_delete_user_order_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableTop="@drawable/ic_remove"
+        android:text="@string/btn_delete_items"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>

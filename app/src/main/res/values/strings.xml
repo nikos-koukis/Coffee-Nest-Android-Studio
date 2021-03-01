@@ -1,0 +1,259 @@
+<resources>
+
+    //default strings
+    <string name="app_name">CoffeeNest</string>
+
+    <string name="map_key" translatable="false">AIzaSyDVQUSbZ6dbtMydZ2KbXuJ0SFbqce1jMZk</string>
+
+
+
+    //---------------------------- Custom Strings -------------------------------------//
+
+    //-------------- Main Activity Strings -------------------------------------//
+    <string name="progress_bar_text">Φόρτωση...</string>
+    <string name="copyrights_text">Copyrights © Nick Koukis</string>
+
+    //-------------- Launch Activity Strings -------------------------------------//
+    <string name="launch_app_name_text">Coffee Nest</string>
+    <string name="launch_welcome_text">Γεια σου! Δίψασες;</string>
+    <string name="gmail_button_text">Συνέχεια με Gmail</string>
+    <string name="facebook_btn_text">Συνέχεια με Facebook</string>
+    <string name="login_btn_text">Σύνδεση</string>
+    <string name="register_btn_text">Εγγραφή</string>
+    <string name="calendar_text">Calendar</string>
+
+    //-------------- Internet Connection Dialog Strings -------------------------------------//
+    <string name="error_message_text">Ουπς! Κάτι πήγε στραβά!</string>
+    <string name="no_internet_conn_text">Δεν υπάρχει σύνδεση στο διαδίκτυο.</string>
+    <string name="check_internet_conn_text">Παρακαλώ ελέγξτε τη σύνδεσή σας στο διαδίκτυο.</string>
+    <string name="retry_btn_text">Προσπαθήστε ξανά</string>
+
+    //------- Register Activity Strings -----//
+    <string name="welcome_register_text">Καλώς Όρισες!</string>
+    <string name="register_text">Κάνε την εγγραφή σου.</string>
+    <string name="register_hint_username_text">Username</string>
+    <string name="register_hint_email_text">Email</string>
+    <string name="register_hint_phone_text">Phone</string>
+    <string name="register_hint_password_text">Password</string>
+    <string name="register_hint_con_password_text">Confirm Password</string>
+    <string name="already_member_text">Έχεις ήδη εγγραφεί;<b> Σύνδεση</b></string>
+    <string name="register_button_text">Εγγραφή</string>
+
+    //-------- Login Activity Strings --------//
+    <string name="welcome_login_text">Γεια σου!</string>
+    <string name="login_text">Κάνε Σύνδεση.</string>
+    <string name="login_hint_email_text">Email</string>
+    <string name="login_hint_password_text">Password</string>
+    <string name="reset_password_text">Ξέχασες τον κωδικό σου;<b> Επαναφορά</b></string>
+    <string name="not_member_text">Ξέχασες να κάνεις εγγραφή;<b> Εγγραφή</b></string>
+    <string name="login_button_text">Σύνδεση</string>
+
+    //-------- Forget Password Activity Strings --------//
+    <string name="forget_pass_text">Ξέχασες τον κωδικό σου;</string>
+    <string name="fill_email_text">Συμπλήρωσε το Email σου!</string>
+    <string name="forget_hint_email_text">Email</string>
+    <string name="reset_btn_text">Επαναφορά Κωδικού</string>
+
+    //-------- Home Activity Strings --------//
+    <string name="btn_order_text">Παράγγειλε τώρα</string>
+
+    //-------- User Profile Activity Strings --------//
+    <string name="user_name_text">User</string>
+    <string name="my_info_text">Οι πληροφορίες μου</string>
+    <string name="btn_my_account_text">Ο λογαριασμός μου</string>
+    <string name="btn_my_order_text">Παραγγελίες</string>
+    <string name="btn_my_address_text">Διευθύνσεις</string>
+    <string name="btn_my_fav_text">Αγαπημένα</string>
+    <string name="btn_my_rate_text">Αξιολογήσεις</string>
+    <string name="btn_my_payments_text">Τρόποι Πληρωμής</string>
+    <string name="about_text">Σχετικά</string>
+    <string name="btn_my_personal_text">Προσωπικά Δεδομένα</string>
+    <string name="btn_about_us_text">Σχετικά</string>
+    <string name="btn_contact_text">Επικοινωνία</string>
+
+    //-------- My Account Activity Strings --------//
+    <string name="my_acc_text">Ο λογαριασμός μου</string>
+    <string name="my_acc_hint_name_text">Username</string>
+    <string name="my_acc_hint_email_text">Email</string>
+    <string name="btn_update_text">Ενημέρωση</string>
+    <string name="change_pass_text">Αλλαγή Κωδικού</string>
+    <string name="btn_logout_text">Αποσύνδεση</string>
+    <string name="btn_delete_acc_text">Διαγραφή Λογαριασμού</string>
+
+    //-------- Change Password Activity Strings --------//
+    <string name="act_change_pass_text">Αλλαγή Κωδικού Πρόσβασης</string>
+    <string name="past_pass_hint_text">Τωρινός Κωδικός</string>
+    <string name="new_pass_hint_text">Νέος Κωδικός</string>
+    <string name="btn_save_new_pass">Αλλαγή Κωδικού</string>
+
+    //--------------------------------- Fragment Strings -----------------------------------//
+
+    //------------- Coffee Fragment Strings --------------//
+    <string name="fragment_coffee_text">Καφέδες</string>
+
+    //------------- Drinks Fragment Strings --------------//
+    <string name="fragment_drinks_text">Ροφήματα</string>
+
+    //------------- Smoothies Fragment Strings --------------//
+    <string name="fragment_smoothies_text">Smoothies</string>
+
+    //------------- Tea Fragment Strings --------------//
+    <string name="fragment_tea_text">Τσάι</string>
+
+    //------------- Snack Fragment Strings --------------//
+    <string name="fragment_snack_text">Snacks</string>
+
+
+    //------------- Home Fragment Strings --------------//
+    <string name="home_fragment_btn_loc_text">Βρείτε μας εδώ</string>
+    <string name="home_fragment_btn_phone_text">Καλέστε μας</string>
+    <string name="home_fragment_text_view_location">Καλαβρύτων 200-210<br /> Πάτρα 263 34</string>
+    <string name="home_fragment_text_view_phone">+30 6972534499</string>
+    <string name="home_fragment_recommend_text">Προτεινόμενα</string>
+
+
+    //------------- Coffee Item Strings --------------//
+    <string name="item_coffee_name_text">Όνομα Καφέ:</string>
+    <string name="item_coffee_price_text">Τιμή Καφέ:</string>
+
+    //------------- Drinks Item Strings --------------//
+    <string name="item_drinks_name_text">Όνομα Ροφήματος:</string>
+    <string name="item_drinks_price_text">Τιμή Ροφήματος:</string>
+    <string name="item_drinks_description_text">Περιγραφή Ροφήματος:</string>
+
+    //------------- Smoothie Item Strings --------------//
+    <string name="item_smoothie_name_text">Όνομα Smoothie:</string>
+    <string name="item_smoothie_price_text">Τιμή Smoothie:</string>
+    <string name="item_smoothie_description_text">Περιγραφή Smoothie:</string>
+
+    //------------- Tea Item Strings --------------//
+    <string name="item_tea_name_text">Όνομα Τσάι:</string>
+    <string name="item_tea_price_text">Τιμή Τσάι:</string>
+    <string name="item_tea_description_text">Περιγραφή Τσάι:</string>
+
+    //------------- Snack Item Strings --------------//
+    <string name="item_snack_name_text">Όνομα Snack:</string>
+    <string name="item_snack_price_text">Τιμή Snack:</string>
+    <string name="item_snack_description_text">Περιγραφή Snack:</string>
+
+    /------------- Recommended Coffee Item Strings --------------//
+    <string name="recommend_coffee_name_text">Όνομα Καφέ:</string>
+    <string name="recommend_coffee_price_text">Τιμή Καφέ:</string>
+
+
+    //--------------------------- Fragment Details Strings --------------------------------//
+
+    //------- Coffee Details Strings --------------------//
+    <string name="toolbar_coffee_title_text">Όνομα Καφέ:</string>
+    <string name="card_view_coffee_name_text">Όνομα Καφέ:</string>
+    <string name="card_view_coffee_price_text">1.50 </string>
+    <string name="card_choose_varieties">Επιλέξτε ποικιλία</string>
+    <string name="card_choose_varieties_option">Υποχρεωτική Επιλογή</string>
+    <string name="card_choose_sugar">Επιλέξτε ζάχαρη</string>
+    <string name="card_choose_sugar_option">Υποχρεωτική Επιλογή</string>
+    <string name="btn_add_cart">Προσθήκη στο καλάθι</string>
+
+    //------- Coffee Details Strings --------------------//
+    <string name="toolbar_drink_title_text">Όνομα Ροφήματος:</string>
+    <string name="card_view_drink_name_text">Όνομα Ροφήματος:</string>
+    <string name="card_view_drink_price_text">2.50 </string>
+
+    //------- Smoothie Details Strings --------------------//
+    <string name="toolbar_smoothie_title_text">Όνομα Smoothie:</string>
+    <string name="card_view_smoothie_name_text">Όνομα Smoothie:</string>
+    <string name="card_view_smoothie_price_text">2.50 </string>
+
+    //------- Tea Details Strings --------------------//
+    <string name="toolbar_tea_title_text">Όνομα Smoothie:</string>
+    <string name="card_view_tea_name_text">Όνομα Smoothie:</string>
+    <string name="card_view_tea_price_text">2.50 </string>
+
+    //------- Snack Details Strings --------------------//
+    <string name="toolbar_snack_title_text">Όνομα Snack:</string>
+    <string name="card_view_snack_name_text">Όνομα Snack:</string>
+    <string name="card_view_snack_price_text">2.50 </string>
+
+
+    //------- Cart Activity Strings --------------------//
+    <string name="cart_toolbar_title">Το καλάθι σας</string>
+    <string name="empty_list_text">Η λίστα σας είναι κενή!</string>
+    <string name="card_total_price_text">Συνολικό ποσό: </string>
+    <string name="btn_continue_order_text">Συνέχεια Παραγγελίας</string>
+    <string name="btn_add_to_favorite">Προσθήκη στα αγαπημένα</string>
+
+    //------- Cart Item Strings --------------------//
+    <string name="cart_item_coffee_name_text">Όνομα Καφέ:</string>
+    <string name="cart_item_coffee_price_text">Τιμή Καφέ:</string>
+    <string name="cart_item_coffee_variety_text">Είδος Καφέ:</string>
+    <string name="cart_item_coffee_sugar_text">Ζάχαρη:</string>
+
+    //------- Order Confirmation Strings --------------------//
+    <string name="order_confirm_text">Επιβεβαίωση Παραγγελίας</string>
+    <string name="thanks_text_order">Ευχαριστούμε που υποβάλατε <br />την παραγγελία σας.</string>
+    <string name="for_more_info_text">Για οποιαδήποτε ερώτηση και <br />περαιτέρω πληροφορίες, <br />επικοινωνήστε με το κατάστημά μας.</string>
+    <string name="continue_shopping_btn_text">Συνεχίστε τις αγορές σας</string>
+
+    //------- Google Map Activity Strings --------------------//
+    <string name="toolbar_text">Η τοποθεσία μας</string>
+
+    //------- Payment Method Activity Strings --------------------//
+    <string name="toolbar_payment_method_toolbar_title">Επιλέξτε Μέθοδο Πληρωμής</string>
+    <string name="address_hint_text">Διεύθυνση</string>
+    <string name="address_text">Για να ολοκληρωθεί η παραγγελία σας παρακαλώ εισάγετε την διεύθυνσή σας <font color='#EE0000'>*</font></string>
+    <string name="username_hint_text">Όνομα Χρήστη</string>
+    <string name="total_price_hint_text">Συνολικό Ποσό</string>
+    <string name="btn_complete_order">Ολοκλήρωση Παραγγελίας</string>
+    <string name="choose_payment_method_text">Επιλέξτε τρόπο πληρωμής</string>
+    <string name="radio_btn_payPal_text">Πληρωμή με PayPal</string>
+    <string name="radio_btn_debit_text">Πληρωμή με Χρεωστική/Πιστωτική Κάρτα</string>
+    <string name="radio_btn_payOnDelivery_text">Αντικαταβολή</string>
+    <string name="btn_find_location_text">Εντοπισμός τοποθεσίας</string>
+
+    //------- Find Location Activity Strings --------------------//
+    <string name="toolbar_find_loc_text">Βρες την τοποθεσία σου</string>
+    <string name="address_loc_text">Διεύθυνση</string>
+    <string name="country_loc_text">Χώρα</string>
+    <string name="btn_save_address_text">Αποθήκευση Διεύθυνσης</string>
+
+    //------- User Orders Activity Strings --------------------//
+    <string name="user_orders_text">Ιστορικό Παραγγελιών</string>
+    <string name="user_orders_blank_text">Δε φαίνεται να έχεις προσθέσει <br>κάποια παραγγελία.</br></string>
+    <string name="btn_delete_items">Διαγραφή ιστορικού</string>
+
+
+    //------- Order Item Strings --------------------//
+    <string name="total_price_orders_item">Συνολικό Ποσό:</string>
+    <string name="total_price_orders_item_text">0.00</string>
+    <string name="order_date_item">Ημερομηνία Παραγγελίας:</string>
+    <string name="order_date_item_text"></string>
+    <string name="payment_method_item">Τρόπος Πληρωμής:</string>
+    <string name="payment_method_item_text">Αντικαταβολή</string>
+
+    //------- GPS Dialog Strings--------------------//
+    <string name="dialog_default_text">Για να απολαύσετε μια καλύτερη εμπειρία, ενεργοποιήστε την τοποθεσία συσκευής, η οποία χρησιμοποιεί την υπηρεσία τοποθεσίας της Google</string>
+    <string name="dialog_text">Η συσκευή σας θα πρέπει να:</string>
+    <string name="gps_text">Χρήση GPS, Wi-Fi, δικτύων κινητής τηλεφωνίας και αισθητήρων</string>
+    <string name="google_text">Χρησιμοποιήστε την υπηρεσία τοποθεσίας της Google. Ως μέρος αυτής της υπηρεσία, η Google μπορεί να συλλέγει περιοδικά
+        δεδομένα τοποθεσίας και να τα χρησιμοποιεί ανώνυμα, προκειμένου να βελτιώσει την ακρίβεια της τοποθεσίας και των υπηρεσιών με βάση την τοποθεσία.</string>
+    <string name="details_text">Για λεπτομέρειες, μεταβείτε στις ρυθμίσεις τοποθεσίας.</string>
+
+    //------- Delete User Order History Dialog Strings--------------------//
+    <string name="delete_user_order_history_title">Διαγραφή Ιστορικού Παραγγελιών</string>
+    <string name="permanently_delete_user_order_history">Θέλετε να διαγράψετε οριστικά το ιστορικό σας;</string>
+
+    //------- LogOut User Dialog Strings--------------------//
+    <string name="logout_user_title">Αποσύνδεση Χρήστη</string>
+    <string name="logout_user_text">Θέλετε να αποσυνδεθείτε;</string>
+
+    //------- Delete User Account Dialog Strings--------------------//
+    <string name="delete_user_account_title">Οριστική διαγραφή του λογαριαμού σας</string>
+    <string name="delete_user_account_text">Θέλετε να διαγράψετε οριστικά τον λογαριασμό σας;</string>
+    <string name="delete_user_account_info">Διαγράφοντας οριστικά τον λογαριασμό σας δεν θα έχετε πρόσβαση στην εφαρμογή</string>
+
+    //------- Exit App Dialog Strings--------------------//
+    <string name="exit_app_title">Επιβεβαιώστε την έξοδο</string>
+    <string name="exit_app_text">Είστε σίγουρος πως θέλετε να κλείσετε την εφαρμογή;</string>
+
+
+
+</resources>
